@@ -13,7 +13,7 @@ import {
 import "../Payments.scss";
 
 // API Configuration
-const API_BASE_URL = "https://genuine-flow-production-b0ae.up.railway.app/api";
+const API_BASE_URL = "https://genuine-flow-production-b0ae.up.railway.app";
 const appId = "tenant_app_jafe2";
 
 export default function PaystackPaymentsV2({ setUserData }) {
