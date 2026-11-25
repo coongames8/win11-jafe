@@ -3,14 +3,13 @@ import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } f
 import { addDoc, collection, doc, getDoc, getDocs, getFirestore, limit, query, updateDoc, where, orderBy, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDxreIvibzHY-udAkGZaZ4spq8puc1_7FY",
-  authDomain: "powerking-new.firebaseapp.com",
-  databaseURL: "https://powerking-new-default-rtdb.firebaseio.com",
-  projectId: "powerking-new",
-  storageBucket: "powerking-new.firebasestorage.app",
-  messagingSenderId: "667524424624",
-  appId: "1:667524424624:web:3c38a0e12c9340f86fac75",
-  measurementId: "G-8BDB2DL0YH"
+  apiKey: "AIzaSyCtWcYiLUg6jLg4SSbthmi9Ad6SaSAkO0g",
+  authDomain: "goaloracle-68a21.firebaseapp.com",
+  projectId: "goaloracle-68a21",
+  storageBucket: "goaloracle-68a21.firebasestorage.app",
+  messagingSenderId: "183626610659",
+  appId: "1:183626610659:web:c789e02cd438c911a4d2d6",
+  measurementId: "G-62DRPGGF17"
 };
 
 const app = initializeApp(firebaseConfig);

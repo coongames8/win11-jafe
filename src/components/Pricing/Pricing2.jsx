@@ -130,11 +130,11 @@ export default function Pricing2() {
                     </ul>
                 </div>
 
-                {currencyCode !== "KES" && (
+                {/*currencyCode !== "KES" && (
                     <div className="currency-note">
                         💱 Price shown in {currencyCode}
                     </div>
-                )}
+                )*/}
 
                 <button
                     className="glass-btn"
@@ -151,7 +151,7 @@ export default function Pricing2() {
     return (
         <div className="pricing-container" id='pricing'>
             {/* Country Selector */}
-            <div className="pricing-country-selector">
+            {/*<div className="pricing-country-selector">
                 <div 
                     className="selected-country" 
                     onClick={() => setShowCountrySelector(!showCountrySelector)}
@@ -194,7 +194,7 @@ export default function Pricing2() {
                         </button>
                     </div>
                 )}
-            </div>
+            </div>*/}
 
             <div className="pricing-grid">
                 {plans.map(item => (
