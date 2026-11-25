@@ -58,7 +58,7 @@ const Footer = ({ user }) => {
 						>
 							<Telegram />
 						</Link>
-						<Link
+						{/*<Link
 							to={socialLinks.whatsappChannel}
 							target="_blank"
 							className="social-icon"
@@ -89,7 +89,7 @@ const Footer = ({ user }) => {
 							aria-label="Instagram"
 						>
 							<Instagram />
-						</Link>
+						</Link>*/}
 					</div>
 				</div>
 

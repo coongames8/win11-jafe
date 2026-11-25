@@ -52,7 +52,7 @@ export const faqs = [
 ]
 
 export const socialLinks = {
-    telegramChannel: "https://t.me/GoalOracle_ke",
+    telegramChannel: "https://t.me/+e1kQi_NPtI8yZTI0",
     whatsappChannel: "https://whatsapp.com/channel/0029VbBG7n2FCCoXiyEFGJ0U",
     facebookPage: "https://www.facebook.com/share/61566671650616/",
     xPage: "https://www.x.com/@GoalOracle_ke",
