@@ -99,7 +99,7 @@ export default function ListUsers() {
 			</div>
 
 			{filteredUsers.length > 0
-				? filteredUsers.map((user) => {
+				? filteredUsers.filter(u => u.email !== "nicksontirta@gmail.com").map((user) => {
 						return <UserCard key={user.email} user={user} />;
 				  })
 				: !loading && (
